@@ -1,0 +1,130 @@
+
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+}
+
+.main
+{
+ position: absolute;
+ height: 695px;
+    background: linear-gradient(120deg,#fff,#fff,62%,#3b5998,62%,#3b5998);
+    
+    
+}
+header{
+    display: flex;
+   
+}
+.logo{
+color: blue; 
+height: 70px; 
+width: 70px;
+margin: 10px;
+padding: 10px;
+}
+
+header ul{
+    display: flex;
+    margin-top: 50px;
+    list-style-type:none;
+    
+
+}
+
+header ul li{
+    margin-left: 15px;
+    background: #fff;
+}
+
+header ul li:hover{
+    color: red
+}
+.download{
+    position: absolute;
+    right: 100px;
+    color: #fff;
+    margin-top: 50px;
+    background: #fff;
+    border-radius: 5px;
+    color: #3b5998;
+    height: 30px;
+    width: 130px;
+    text-align: center;
+}
+
+.content{
+    margin: 190px 10px 10px 10px;
+    padding: 10px;   
+    display: flex;
+    
+
+}
+.text
+{
+    margin-right: 700px;
+}
+.text h1{
+    font-size: 70px;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+h4{
+    margin-top: 18px;
+    font-weight: bold;
+    color: blue;
+}
+
+.download-text{
+    margin-top: 10px;
+    
+}
+button{
+    height: 30px; 
+    width: 110px;
+    background:#3b5998;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+
+}
+
+.socialicon{
+    margin: 80px 10px 10px 10px;
+    
+    
+}
+.fb{
+    margin-right:  10px;
+    height: 30px; 
+    width: 30px;
+    color: blue;
+
+}
+.twitter{
+    margin-right:10px ;
+    height: 30px; 
+    width: 30px;
+    color: blue;
+}
+
+.insta{
+    height: 30px; 
+    width: 30px;
+    color: rgba(224, 10, 10, 0.966);
+}
+.img img{
+    height: 580px;
+   
+    position: absolute;
+    right: 200px;
+    margin-top: 80px;
+    color: #3b5998;
+}
+
+
+
+
+
